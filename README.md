@@ -6,7 +6,7 @@
 
 I'm a **systems and network infrastructure builder** based in the Greater Toronto Area. Currently completing Seneca Polytechnic's Computer Systems Technology (CTYC) program (President's Honour List, 4.0 GPA), I focus on **enterprise systems administration, zero-trust network engineering, and agentic infrastructure automation**.
 
-Outside the classroom, I design and run boundary-enforced virtualized homelabs, configure directory and identity services across Windows and Linux, and engineer practical agentic workflows with modern LLMs and local runtimes to keep systems reproducible, automated, and secure.
+Outside the classroom, I designed and built a boundary-enforced virtualized homelab, I’ve worked with configuring directory and identity services across Windows and Linux, and engineered practical agentic workflows with modern LLMs and local runtimes to keep systems reproducible, automated, and secure.
 
 ---
 
