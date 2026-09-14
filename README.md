@@ -2,7 +2,7 @@
   <img src="matrix_banner.gif" alt="Golden Stickwood Matrix Banner" width="100%" />
 </p>
 
-# Hi, I'm Golden
+# Hi, I'm Golden 👋
 
 I'm a **systems and network infrastructure builder** based in the Greater Toronto Area. Currently completing Seneca Polytechnic's Computer Systems Technology (CTYC) program (President's Honour List, 4.0 GPA), I focus on **enterprise systems administration, zero-trust network engineering, and agentic infrastructure automation**.
 
