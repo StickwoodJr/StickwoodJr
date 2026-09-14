@@ -2,7 +2,7 @@
   <img src="matrix_banner.gif" alt="Golden Stickwood Matrix Banner" width="100%" />
 </p>
 
-# Hi, I'm Golden 👋
+# Hi, I'm Golden
 
 I'm a **systems and network infrastructure builder** based in the Greater Toronto Area. Currently completing Seneca Polytechnic's Computer Systems Technology (CTYC) program (President's Honour List, 4.0 GPA), I focus on **enterprise systems administration, zero-trust network engineering, and agentic infrastructure automation**.
 
@@ -10,7 +10,7 @@ Outside the classroom, I design and run boundary-enforced virtualized homelabs, 
 
 ---
 
-## ⚡ // SYSTEM OBJECTIVES & FOCUS
+## System Objectives & Focus
 
 - **Zero-Trust Virtualization & Boundary Routing:** Architecting hardware-constrained guest environments with `KVM/QEMU`, `Cisco IOSv` virtual routing, Zone-Based Policy Firewalls (`ZFW`), isolated `libvirt` bridges, dynamic NAT, and zero open inbound ports via `Cloudflare Tunnels` and `Tailscale WireGuard` mesh.
 - **Enterprise Directory & Identity Services:** Deploying Active Directory Domain Services (`AD DS`), multi-site Organizational Unit design, granular Group Policy Objects (`GPOs`), `DHCP/DNS` integration, and role-based access control across Windows Server (GUI & Core) and Linux.
@@ -20,7 +20,7 @@ Outside the classroom, I design and run boundary-enforced virtualized homelabs, 
 
 ---
 
-## 🛠 // TECH STACK & ENVIRONMENTS
+## Tech Stack & Environments
 
 **Operating Systems:** ![Debian](https://img.shields.io/badge/-Debian-A81D33?logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?logo=ubuntu&logoColor=white) ![CentOS](https://img.shields.io/badge/-CentOS-262577?logo=centos&logoColor=white) ![Windows](https://img.shields.io/badge/-Windows-0078D6?logo=windows&logoColor=white) ![Windows Server](https://img.shields.io/badge/-Windows%20Server-0078D6?logo=windows&logoColor=white) ![Cisco IOS](https://img.shields.io/badge/-Cisco%20IOS-1BA0D7?logo=cisco&logoColor=white)
 
@@ -34,7 +34,7 @@ Outside the classroom, I design and run boundary-enforced virtualized homelabs, 
 
 ---
 
-## 📦 // FEATURED REPOSITORIES
+## Featured Repositories
 
 | Repository | Focus & Architecture |
 | :--- | :--- |
@@ -44,7 +44,7 @@ Outside the classroom, I design and run boundary-enforced virtualized homelabs, 
 
 ---
 
-## 📡 // CONNECT & REACH OUT
+## Connect & Reach Out
 
 - 👔 [LinkedIn](https://www.linkedin.com/in/golden-q-stickwood-8404aa23b/)
 - 📍 Greater Toronto Area, Ontario, Canada
