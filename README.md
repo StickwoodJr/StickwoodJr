@@ -22,7 +22,7 @@ Outside the classroom, I design and run boundary-enforced virtualized homelabs, 
 
 ## 🛠 // TECH STACK & ENVIRONMENTS
 
-**Operating Systems:** ![Debian](https://img.shields.io/badge/-Debian-A81D33?logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?logo=ubuntu&logoColor=white) ![Red Hat](https://img.shields.io/badge/-Red%20Hat-EE0000?logo=redhat&logoColor=white) ![Windows Server](https://img.shields.io/badge/-Windows%20Server-0078D6?logo=windows&logoColor=white) ![Cisco IOS](https://img.shields.io/badge/-Cisco%20IOS-1BA0D7?logo=cisco&logoColor=white)
+**Operating Systems:** ![Debian](https://img.shields.io/badge/-Debian-A81D33?logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?logo=ubuntu&logoColor=white) ![CentOS](https://img.shields.io/badge/-CentOS-262577?logo=centos&logoColor=white) ![Windows](https://img.shields.io/badge/-Windows-0078D6?logo=windows&logoColor=white) ![Windows Server](https://img.shields.io/badge/-Windows%20Server-0078D6?logo=windows&logoColor=white) ![Cisco IOS](https://img.shields.io/badge/-Cisco%20IOS-1BA0D7?logo=cisco&logoColor=white)
 
 **Networking & Security:** ![Active Directory](https://img.shields.io/badge/-Active%20Directory-0078D4?logo=microsoft&logoColor=white) ![WireGuard](https://img.shields.io/badge/-WireGuard-88171A?logo=wireguard&logoColor=white) ![Tailscale](https://img.shields.io/badge/-Tailscale-24292F?logo=tailscale&logoColor=white) ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?logo=cloudflare&logoColor=white) ![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?logo=wireshark&logoColor=white) ![Nmap](https://img.shields.io/badge/-Nmap-2C2D72?logo=nmap&logoColor=white)
 
