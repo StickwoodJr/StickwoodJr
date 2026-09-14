@@ -1,0 +1,48 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B132B,100:1C2541&height=180&section=header&text=Golden%20Stickwood&fontSize=40&fontColor=ffffff&fontAlignY=40&desc=Systems%20%7C%20Networks%20%7C%20Zero-Trust%20Infrastructure&descFontSize=18&descAlignY=62&descColor=82AAFF" alt="Golden Stickwood Banner" />
+</p>
+
+# Hi, I'm Golden 👋
+
+I'm a **systems and network infrastructure builder** based in the Greater Toronto Area. Currently in the Computer Systems Technology (CTYC) program at Seneca Polytechnic (President's Honour List, 4.0 GPA), I focus on **enterprise systems administration, zero-trust network engineering, and infrastructure automation**.
+
+Outside the classroom, I design and run boundary-enforced virtualized homelabs, configure directory and identity services across Windows and Linux, and build pragmatic tooling in Bash and PowerShell to keep production systems reproducible, secure, and resilient.
+
+## 🔭 What I'm working on
+
+- **Zero-trust virtualization & boundary routing:** Architecting hardware-constrained guest environments with KVM/QEMU, Cisco IOSv virtual routing, Zone-Based Policy Firewalls (ZFW), isolated libvirt bridges, dynamic NAT, and zero open inbound ports via Cloudflare Tunnels and Tailscale WireGuard mesh.
+- **Enterprise directory & identity services:** Deploying Active Directory Domain Services (AD DS), multi-site Organizational Unit design, granular Group Policy Objects (GPOs), DHCP/DNS integration, and role-based access control across Windows Server (GUI & Core) and Linux.
+- **Network engineering & diagnostics:** Configuring Cisco IOS switching and routing (802.1Q VLAN trunking, single-area OSPFv2, NAT/PAT, port security), with packet-level inspection and traffic analysis using Wireshark and Nmap.
+- **Operational automation & tooling:** Writing deterministic Bash and PowerShell lifecycle scripts for automated VM snapshot recovery, user provisioning, and building zero-cache live curriculum RAG pipelines with Google NotebookLM and ExtendLM MCP.
+
+## 🛠️ Tech I work with
+
+**Operating Systems:** ![Debian](https://img.shields.io/badge/-Debian-A81D33?logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?logo=ubuntu&logoColor=white) ![Red Hat](https://img.shields.io/badge/-Red%20Hat-EE0000?logo=redhat&logoColor=white) ![Windows Server](https://img.shields.io/badge/-Windows%20Server-0078D6?logo=windows&logoColor=white) ![Cisco IOS](https://img.shields.io/badge/-Cisco%20IOS-1BA0D7?logo=cisco&logoColor=white)
+
+**Networking & Security:** ![Active Directory](https://img.shields.io/badge/-Active%20Directory-0078D4?logo=microsoft&logoColor=white) ![WireGuard](https://img.shields.io/badge/-WireGuard-88171A?logo=wireguard&logoColor=white) ![Tailscale](https://img.shields.io/badge/-Tailscale-24292F?logo=tailscale&logoColor=white) ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?logo=cloudflare&logoColor=white) ![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?logo=wireshark&logoColor=white) ![Nmap](https://img.shields.io/badge/-Nmap-2C2D72?logo=nmap&logoColor=white)
+
+**Virtualization & Cloud:** ![KVM / QEMU](https://img.shields.io/badge/-KVM%20%2F%20QEMU-FF6600?logo=qemu&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white) ![VMware](https://img.shields.io/badge/-VMware-607078?logo=vmware&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=microsoftazure&logoColor=white)
+
+**Scripting & Automation:** ![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnubash&logoColor=white) ![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
+
+**Infrastructure & Tools:** ![systemd](https://img.shields.io/badge/-systemd-5849BE?logo=systemd&logoColor=white) ![Nginx](https://img.shields.io/badge/-Nginx-009639?logo=nginx&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visualstudiocode&logoColor=white) ![LaTeX](https://img.shields.io/badge/-LaTeX-008080?logo=latex&logoColor=white)
+
+## 📌 Featured Repositories
+
+| Repository | Focus & Architecture |
+| :--- | :--- |
+| [**homelab-public**](https://github.com/StickwoodJr/homelab-public) | Enterprise-grade zero-trust homelab on a repurposed host node: Debian 13, KVM/QEMU, Cisco IOSv Zone-Based Firewall, 3-tier isolated routing, and automated disaster recovery. |
+| [**resume-rag-experiment**](https://github.com/StickwoodJr/resume-rag-experiment) | Zero-cache live curriculum RAG pipeline connecting Google NotebookLM via ExtendLM MCP to audit and ground claims against 130+ primary lab submissions. |
+| [**cty-semester-3-dashboard**](https://github.com/StickwoodJr/cty-semester-3-dashboard) | Academic command center and systems tracking for Seneca Polytechnic's Computer Systems Technology curriculum. |
+| [**grade-calculator-mcp**](https://github.com/StickwoodJr/grade-calculator-mcp) | Custom Model Context Protocol (MCP) server for fast weighted academic evaluation and projection. |
+
+## 📫 Get in touch
+
+- 👔 [LinkedIn](https://www.linkedin.com/in/golden-q-stickwood-8404aa23b/)
+- 📧 [stickwood_jr@hotmail.com](mailto:stickwood_jr@hotmail.com)
+- 📍 Greater Toronto Area, Ontario, Canada
+
+<!---
+StickwoodJr/StickwoodJr is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
