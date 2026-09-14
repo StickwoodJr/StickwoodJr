@@ -2,15 +2,6 @@
   <img src="matrix_banner.gif" alt="Golden Stickwood Matrix Banner" width="100%" />
 </p>
 
-```yaml
-host: labhost.stickwood.internal
-identity: Golden Stickwood
-program: Computer Systems Technology (CTYC) @ Seneca Polytechnic
-standing: 4.0 / 4.0 GPA (President's Honour List)
-location: Greater Toronto Area, ON, Canada
-focus: [Zero-Trust Virtualization, Enterprise Systems, Directory Services, Agentic Automation]
-```
-
 # Hi, I'm Golden 👋
 
 I'm a **systems and network infrastructure builder** based in the Greater Toronto Area. Currently completing Seneca Polytechnic's Computer Systems Technology (CTYC) program (President's Honour List, 4.0 GPA), I focus on **enterprise systems administration, zero-trust network engineering, and agentic infrastructure automation**.
