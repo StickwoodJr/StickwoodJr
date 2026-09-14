@@ -1,25 +1,28 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B132B,100:1C2541&height=180&section=header&text=Golden%20Stickwood&fontSize=40&fontColor=ffffff&fontAlignY=40&desc=Systems%20%7C%20Networks%20%7C%20Zero-Trust%20Infrastructure&descFontSize=18&descAlignY=62&descColor=82AAFF" alt="Golden Stickwood Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B132B,100:1C2541&height=180&section=header&text=Golden%20Stickwood&fontSize=40&fontColor=ffffff&fontAlignY=40&desc=Systems%20%7C%20Networks%20%7C%20Zero-Trust%20%7C%20Agentic%20Automation&descFontSize=17&descAlignY=62&descColor=82AAFF" alt="Golden Stickwood Banner" />
 </p>
 
 # Hi, I'm Golden 👋
 
-I'm a **systems and network infrastructure builder** based in the Greater Toronto Area. Currently in the Computer Systems Technology (CTYC) program at Seneca Polytechnic (President's Honour List, 4.0 GPA), I focus on **enterprise systems administration, zero-trust network engineering, and infrastructure automation**.
+I'm a **systems and network infrastructure builder** based in the Greater Toronto Area. Currently in the Computer Systems Technology (CTYC) program at Seneca Polytechnic (President's Honour List, 4.0 GPA), I focus on **enterprise systems administration, zero-trust network engineering, and agentic infrastructure automation**.
 
-Outside the classroom, I design and run boundary-enforced virtualized homelabs, configure directory and identity services across Windows and Linux, and build pragmatic tooling in Bash and PowerShell to keep production systems reproducible, secure, and resilient.
+Outside the classroom, I design and run boundary-enforced virtualized homelabs, configure directory and identity services across Windows and Linux, and engineer practical agentic workflows with modern LLMs and local runtimes to keep systems reproducible, automated, and secure.
 
 ## 🔭 What I'm working on
 
 - **Zero-trust virtualization & boundary routing:** Architecting hardware-constrained guest environments with KVM/QEMU, Cisco IOSv virtual routing, Zone-Based Policy Firewalls (ZFW), isolated libvirt bridges, dynamic NAT, and zero open inbound ports via Cloudflare Tunnels and Tailscale WireGuard mesh.
 - **Enterprise directory & identity services:** Deploying Active Directory Domain Services (AD DS), multi-site Organizational Unit design, granular Group Policy Objects (GPOs), DHCP/DNS integration, and role-based access control across Windows Server (GUI & Core) and Linux.
+- **Agentic coding & workflow automation:** Building autonomous multi-agent pipelines and developer workflows using [Claude Code](https://www.claude.com/product/claude-code), [Google Antigravity](https://github.com/google/antigravity), and Codex for codebase operations, log analysis, and systems auditing.
+- **Local AI & educational RAG:** Running privacy-first local LLMs with Ollama and engineering zero-cache live knowledge retrieval pipelines connecting Google NotebookLM and Gemini via Model Context Protocol (MCP) bridges.
 - **Network engineering & diagnostics:** Configuring Cisco IOS switching and routing (802.1Q VLAN trunking, single-area OSPFv2, NAT/PAT, port security), with packet-level inspection and traffic analysis using Wireshark and Nmap.
-- **Operational automation & tooling:** Writing deterministic Bash and PowerShell lifecycle scripts for automated VM snapshot recovery, user provisioning, and building zero-cache live curriculum RAG pipelines with Google NotebookLM and ExtendLM MCP.
 
 ## 🛠️ Tech I work with
 
 **Operating Systems:** ![Debian](https://img.shields.io/badge/-Debian-A81D33?logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?logo=ubuntu&logoColor=white) ![Red Hat](https://img.shields.io/badge/-Red%20Hat-EE0000?logo=redhat&logoColor=white) ![Windows Server](https://img.shields.io/badge/-Windows%20Server-0078D6?logo=windows&logoColor=white) ![Cisco IOS](https://img.shields.io/badge/-Cisco%20IOS-1BA0D7?logo=cisco&logoColor=white)
 
 **Networking & Security:** ![Active Directory](https://img.shields.io/badge/-Active%20Directory-0078D4?logo=microsoft&logoColor=white) ![WireGuard](https://img.shields.io/badge/-WireGuard-88171A?logo=wireguard&logoColor=white) ![Tailscale](https://img.shields.io/badge/-Tailscale-24292F?logo=tailscale&logoColor=white) ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?logo=cloudflare&logoColor=white) ![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?logo=wireshark&logoColor=white) ![Nmap](https://img.shields.io/badge/-Nmap-2C2D72?logo=nmap&logoColor=white)
+
+**AI & Agentic Tooling:** ![Claude Code](https://img.shields.io/badge/-Claude%20Code-D97706?logo=anthropic&logoColor=white) ![Antigravity](https://img.shields.io/badge/-Antigravity-4285F4?logo=google&logoColor=white) ![Google Gemini](https://img.shields.io/badge/-Google%20Gemini-8E75B2?logo=googlegemini&logoColor=white) ![NotebookLM](https://img.shields.io/badge/-NotebookLM-4285F4?logo=google&logoColor=white) ![Codex](https://img.shields.io/badge/-Codex-412991?logo=openai&logoColor=white) ![Ollama](https://img.shields.io/badge/-Ollama-000000?logo=ollama&logoColor=white) ![MCP](https://img.shields.io/badge/-MCP-181717?logo=anthropic&logoColor=white)
 
 **Virtualization & Cloud:** ![KVM / QEMU](https://img.shields.io/badge/-KVM%20%2F%20QEMU-FF6600?logo=qemu&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white) ![VMware](https://img.shields.io/badge/-VMware-607078?logo=vmware&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=microsoftazure&logoColor=white)
 
