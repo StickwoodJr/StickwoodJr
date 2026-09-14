@@ -28,15 +28,12 @@ Outside the classroom, I design and run boundary-enforced virtualized homelabs, 
 
 **Scripting & Automation:** ![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnubash&logoColor=white) ![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
 
-**Infrastructure & Tools:** ![systemd](https://img.shields.io/badge/-systemd-5849BE?logo=systemd&logoColor=white) ![Nginx](https://img.shields.io/badge/-Nginx-009639?logo=nginx&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visualstudiocode&logoColor=white) ![LaTeX](https://img.shields.io/badge/-LaTeX-008080?logo=latex&logoColor=white)
-
 ## 📌 Featured Repositories
 
 | Repository | Focus & Architecture |
 | :--- | :--- |
 | [**homelab-public**](https://github.com/StickwoodJr/homelab-public) | Enterprise-grade zero-trust homelab on a repurposed host node: Debian 13, KVM/QEMU, Cisco IOSv Zone-Based Firewall, 3-tier isolated routing, and automated disaster recovery. |
 | [**resume-rag-experiment**](https://github.com/StickwoodJr/resume-rag-experiment) | Zero-cache live curriculum RAG pipeline connecting Google NotebookLM via ExtendLM MCP to audit and ground claims against 130+ primary lab submissions. |
-| [**cty-semester-3-dashboard**](https://github.com/StickwoodJr/cty-semester-3-dashboard) | Academic command center and systems tracking for Seneca Polytechnic's Computer Systems Technology curriculum. |
 | [**grade-calculator-mcp**](https://github.com/StickwoodJr/grade-calculator-mcp) | Custom Model Context Protocol (MCP) server for fast weighted academic evaluation and projection. |
 
 ## 📫 Get in touch
