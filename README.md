@@ -47,7 +47,6 @@ Outside the classroom, I design and run boundary-enforced virtualized homelabs, 
 ## 📡 // CONNECT & REACH OUT
 
 - 👔 [LinkedIn](https://www.linkedin.com/in/golden-q-stickwood-8404aa23b/)
-- 📧 [stickwood_jr@hotmail.com](mailto:stickwood_jr@hotmail.com)
 - 📍 Greater Toronto Area, Ontario, Canada
 
 <!---
