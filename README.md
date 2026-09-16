@@ -39,7 +39,7 @@ Outside the classroom, I designed and built a boundary-enforced virtualized home
 | Repository | Focus & Architecture |
 | :--- | :--- |
 | [**homelab-public**](https://github.com/StickwoodJr/homelab-public) | Enterprise-grade zero-trust homelab on a repurposed host node: Debian 13, KVM/QEMU, Cisco IOSv Zone-Based Firewall, 3-tier isolated routing, and automated disaster recovery. |
-| [**resume-rag-experiment**](https://github.com/StickwoodJr/resume-rag-experiment) | Zero-cache live curriculum RAG pipeline connecting Google NotebookLM via ExtendLM MCP to audit and ground claims against 130+ primary lab submissions. |
+| [**ai-job-search-enhanced**](https://github.com/StickwoodJr/ai-job-search-enhanced) | Autonomous multi-agent job search OS for Claude Code & Antigravity featuring Canadian portal scrapers, Indeed swarm intelligence, NotebookLM RAG verification, and LaTeX ATS generation. |
 | [**grade-calculator-mcp**](https://github.com/StickwoodJr/grade-calculator-mcp) | Custom Model Context Protocol (MCP) server for fast weighted academic evaluation and projection. |
 
 ---
