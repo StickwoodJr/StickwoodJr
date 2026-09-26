@@ -46,7 +46,7 @@ Before studying IT, I ran a small business, where I learned to take ownership of
 
 ## Connect
 
-- 👔 [LinkedIn](https://www.linkedin.com/in/golden-q-stickwood-8404aa23b/)
+- 👔 [LinkedIn](https://www.linkedin.com/in/golden-q-stickwood/)
 - 📍 Greater Toronto Area, Ontario, Canada
 
 <!---
