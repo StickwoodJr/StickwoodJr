@@ -6,8 +6,6 @@
 
 I’m a Computer Systems Technology student at Seneca Polytechnic with a strong interest in systems administration, networking, and cybersecurity. I learn best by building things, breaking them, and documenting how I fixed them.
 
-My current project is a virtualized homelab built on Debian and KVM. It includes segmented WAN, DMZ, and LAN networks, a Cisco zone-based firewall, secure remote access through Cloudflare Tunnels and Tailscale, and automated VM backups. I’ve documented the design decisions and troubleshooting along the way so the project shows not just what works, but how I approach problems.
-
 Before studying IT, I ran a small business, where I learned to take ownership of projects, communicate with clients, and solve problems under pressure. I’m looking to bring that same hands-on approach to a co-op opportunity in IT infrastructure, networking, or security.
 
 ---
