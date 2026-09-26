@@ -10,7 +10,7 @@ Before studying IT, I ran a small business, where I learned to take ownership of
 
 ---
 
-## System Objectives & Focus
+## What I'm Working On
 
 - **Zero-Trust Virtualization & Boundary Routing:** Architecting hardware-constrained guest environments with `KVM/QEMU`, `Cisco IOSv` virtual routing, Zone-Based Policy Firewalls (`ZFW`), isolated `libvirt` bridges, dynamic NAT, and zero open inbound ports via `Cloudflare Tunnels` and `Tailscale WireGuard` mesh.
 - **Agentic Coding & Workflow Automation:** Building autonomous multi-agent pipelines and developer workflows using Claude Code, Google Antigravity, and Codex for coding, log analysis, systems auditing, and more.
@@ -19,7 +19,7 @@ Before studying IT, I ran a small business, where I learned to take ownership of
 
 ---
 
-## Tech Stack & Environments
+## Skills & Tools
 
 **Operating Systems:** ![Debian](https://img.shields.io/badge/-Debian-A81D33?logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?logo=ubuntu&logoColor=white) ![CentOS](https://img.shields.io/badge/-CentOS-262577?logo=centos&logoColor=white) ![Windows](https://img.shields.io/badge/-Windows-0078D6?logo=windows&logoColor=white) ![Windows Server](https://img.shields.io/badge/-Windows%20Server-0078D6?logo=windows&logoColor=white) ![Cisco IOS](https://img.shields.io/badge/-Cisco%20IOS-1BA0D7?logo=cisco&logoColor=white)
 
@@ -33,7 +33,7 @@ Before studying IT, I ran a small business, where I learned to take ownership of
 
 ---
 
-## Featured Repositories
+## Featured Projects
 
 | Repository | Focus & Architecture |
 | :--- | :--- |
@@ -44,7 +44,7 @@ Before studying IT, I ran a small business, where I learned to take ownership of
 
 ---
 
-## Connect & Reach Out
+## Connect
 
 - 👔 [LinkedIn](https://www.linkedin.com/in/golden-q-stickwood-8404aa23b/)
 - 📍 Greater Toronto Area, Ontario, Canada
