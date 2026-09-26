@@ -15,7 +15,7 @@ Before studying IT, I ran a small business, where I learned to take ownership of
 ## System Objectives & Focus
 
 - **Zero-Trust Virtualization & Boundary Routing:** Architecting hardware-constrained guest environments with `KVM/QEMU`, `Cisco IOSv` virtual routing, Zone-Based Policy Firewalls (`ZFW`), isolated `libvirt` bridges, dynamic NAT, and zero open inbound ports via `Cloudflare Tunnels` and `Tailscale WireGuard` mesh.
-- **Agentic Coding & Workflow Automation:** Building autonomous multi-agent pipelines and developer workflows using [Claude Code](https://www.claude.com/product/claude-code), [Google Antigravity](https://github.com/google/antigravity), and Codex for coding, log analysis, and systems auditing.
+- **Agentic Coding & Workflow Automation:** Building autonomous multi-agent pipelines and developer workflows using Claude Code, Google Antigravity, and Codex for coding, log analysis, systems auditing, and more.
 - **Local AI & Live Educational RAG:** Running privacy-first local LLMs with `Ollama` and engineering zero-cache live knowledge retrieval pipelines connecting `Google NotebookLM` and `Antigravity` via Model Context Protocol (`MCP`) bridges.
 - **Network Engineering & Diagnostics:** Configuring Cisco IOS switching and routing (`802.1Q` VLAN trunking, single-area `OSPFv2`, NAT/PAT, port security), with packet-level inspection and traffic analysis using `Wireshark` and `Nmap`.
 
