@@ -38,8 +38,8 @@ Before studying IT, I ran a small business, where I learned to take ownership of
 | Repository | Focus & Architecture |
 | :--- | :--- |
 | [**homelab-public**](https://github.com/StickwoodJr/homelab-public) | Enterprise-grade zero-trust homelab on a repurposed host node: Debian 13, KVM/QEMU, Cisco IOSv Zone-Based Firewall, 3-tier isolated routing, and automated disaster recovery. |
+| [**usb4-nvme-direct-boot**](https://github.com/StickwoodJr/usb4-nvme-direct-boot) | Engineering case study and turnkey fix for booting bare-metal Linux over USB4 (PCIe Gen 4 x4): solves early-boot tunnel teardown via custom dracut modules, achieving 3,588 MB/s reads and stable 6-VM virtualization without touching internal Windows SSDs. |
 | [**ai-job-search-enhanced**](https://github.com/StickwoodJr/ai-job-search-enhanced) | Autonomous multi-agent job search OS for Claude Code & Antigravity featuring Canadian portal scrapers, Indeed swarm intelligence, NotebookLM RAG verification, and LaTeX ATS generation. |
-| [**usb4-nvme-direct-boot**](https://github.com/StickwoodJr/usb4-nvme-direct-boot) | Universal USB4 / Thunderbolt 4 NVMe direct-boot suite for Linux: kernel parameters, initramfs drop-ins, and UEFI boot forensics over 40 Gbps PCIe Gen 4 x4 bridges. |
 | [**grade-calculator-mcp**](https://github.com/StickwoodJr/grade-calculator-mcp) | Custom Model Context Protocol (MCP) server for fast weighted academic evaluation and projection. |
 
 ---
