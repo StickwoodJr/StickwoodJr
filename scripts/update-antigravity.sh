@@ -36,6 +36,7 @@ case "$(uname -m)" in
 esac
 
 PAGE="https://antigravity.google/download/"
+API_URL="https://antigravity-hub-auto-updater-974169037036.us-central1.run.app/releases"
 WORK=$(mktemp -d)
 STAGE=""
 BACKUP=""
@@ -67,44 +68,79 @@ trap 'exit 143' TERM
 CURL=(curl --fail --show-error --location
       --proto '=https' --proto-redir '=https' --retry 3)
 
-echo "Checking Google's download page..."
-"${CURL[@]}" --silent --compressed "$PAGE" -o "$WORK/download.html"
+echo "Checking for Antigravity releases..."
+if ! "${CURL[@]}" --silent --compressed "$API_URL" -o "$WORK/releases.json" 2>/dev/null; then
+    rm -f "$WORK/releases.json"
+fi
 
-python3 - "$WORK/download.html" "$PLATFORM" > "$WORK/release.txt" <<'PY'
+if [[ ! -f "$WORK/releases.json" ]]; then
+    "${CURL[@]}" --silent --compressed "$PAGE" -o "$WORK/download.html"
+fi
+
+python3 - "$WORK" "$PLATFORM" > "$WORK/release.txt" <<'PY'
+import json
 import re
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin
 
-class Links(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.urls = set()
+work_dir = Path(sys.argv[1])
+platform = sys.argv[2]
+releases_file = work_dir / "releases.json"
 
-    def handle_starttag(self, tag, attrs):
-        if tag == "a":
-            href = dict(attrs).get("href")
-            if href:
-                self.urls.add(urljoin("https://antigravity.google/download/", href))
+resolved = False
 
-parser = Links()
-parser.feed(Path(sys.argv[1]).read_text(errors="replace"))
-pattern = re.compile(
-    r"https://storage\.googleapis\.com/antigravity-public/antigravity-hub/"
-    r"(\d+\.\d+\.\d+)-\d+/" + re.escape(sys.argv[2]) +
-    r"/Antigravity\.tar\.gz"
-)
-matches = [(m.group(1), url) for url in parser.urls
-           if (m := pattern.fullmatch(url))]
+if releases_file.is_file():
+    try:
+        data = json.loads(releases_file.read_text(errors="replace"))
+        versions = data if isinstance(data, list) else data.get("versions", [])
+        if versions:
+            latest = versions[0]
+            version = str(latest.get("version", ""))
+            execution_id = str(latest.get("execution_id", ""))
+            if re.fullmatch(r"\d+\.\d+\.\d+", version) and re.fullmatch(r"\d+", execution_id):
+                url = (
+                    f"https://storage.googleapis.com/antigravity-public/antigravity-hub/"
+                    f"{version}-{execution_id}/{platform}/Antigravity.tar.gz"
+                )
+                print(version, url, sep="\t")
+                resolved = True
+    except Exception:
+        pass
 
-if len(matches) != 1:
-    raise SystemExit(
-        "Could not uniquely resolve the official download. "
-        "Google may have changed its page; no installation files were changed."
+if not resolved:
+    html_file = work_dir / "download.html"
+    if not html_file.is_file():
+        raise SystemExit("Failed to fetch release metadata from both API and download page.")
+
+    class Links(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.urls = set()
+
+        def handle_starttag(self, tag, attrs):
+            if tag == "a":
+                href = dict(attrs).get("href")
+                if href:
+                    self.urls.add(urljoin("https://antigravity.google/download/", href))
+
+    parser = Links()
+    parser.feed(html_file.read_text(errors="replace"))
+    pattern = re.compile(
+        r"https://storage\.googleapis\.com/antigravity-public/antigravity-hub/"
+        r"(\d+\.\d+\.\d+)-\d+/" + re.escape(platform) +
+        r"/Antigravity\.tar\.gz"
     )
+    matches = [(m.group(1), url) for url in parser.urls if (m := pattern.fullmatch(url))]
 
-print(*matches[0], sep="\t")
+    if len(matches) != 1:
+        raise SystemExit(
+            "Could not uniquely resolve the official download. "
+            "Google may have changed its page; no installation files were changed."
+        )
+
+    print(*matches[0], sep="\t")
 PY
 
 IFS=$'\t' read -r VERSION URL < "$WORK/release.txt"
